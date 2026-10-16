@@ -52,4 +52,5 @@ async def cualidad_error(interaction: discord.Interaction, error: app_commands.A
         else:
             await interaction.response.send_message("Ocurrió un error inesperado al ejecutar el comando.", ephemeral=True)
 
-bot.run(os.environ['TOKEN'])
+bot.run(os.environ['TOKEN'
+        
